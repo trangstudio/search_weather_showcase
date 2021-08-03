@@ -1,0 +1,13 @@
+#====================================================================================================================#
+# External APIM Gateway | WSO2 APIM
+#====================================================================================================================#
+# Reference: https://ambcba.atlassian.net/wiki/spaces/TEP/pages/125004409/WSO2+Environments
+
+# External APIM Domain
+openWeatherDomainAPI: https://api.openweathermap.org/data/2.5/
+openWeatherDomainAppId: b4a1bb5c4d05e789f9d2fe27e981e41b
+singleLocationParam: weather
+multiLocationParam: box/city
+multiLocationCircleParam: find
+
+

@@ -1,0 +1,1921 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-03T09:09:26.525Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1852212000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2541000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1763000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Call weather data for one location - Search weather by city name",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-one-location---search-weather-by-city-name;;2",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 6401000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 3818000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1399000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1255601000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User search weather by \"Ho Chi Minh\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ho Chi Minh\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByCityName(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59435000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User receive result by \"city name\" with \"200\" and \"Ho Chi Minh City\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"city name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Ho Chi Minh City\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:29.877Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3610000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1418000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 335000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Call weather data for one location - Search weather by city name",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-one-location---search-weather-by-city-name;;3",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 649000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 702000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1612000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 340944000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User search weather by \"Tokyo\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tokyo\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByCityName(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7546000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User receive result by \"city name\" with \"200\" and \"Tokyo\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"city name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Tokyo\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:30.263Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2155000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1486000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 429000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Call weather data for one location - Search weather by city name \u0026 state code",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-one-location---search-weather-by-city-name-\u0026-state-code;;2",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 550000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 632000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 353000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1046505000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User search weather by \"West Orange\" and \"5106298\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"West Orange\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"5106298\"",
+                  "offset": 41
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByCityNameAndStateCode(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8588000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User receive result by \"city name\" with \"200\" and \"West Orange\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"city name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"West Orange\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:31.340Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2645000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1291000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 373000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Call weather data for one location - Search weather by city name \u0026 state code",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-one-location---search-weather-by-city-name-\u0026-state-code;;3",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 1096000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 825000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 487000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1103433000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User search weather by \"Woodland Park\" and \"5444689\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Woodland Park\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"5444689\"",
+                  "offset": 43
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByCityNameAndStateCode(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8393000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User receive result by \"city name\" with \"200\" and \"Woodland Park\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"city name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Woodland Park\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:32.477Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1868000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2248000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 907000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Call weather data for one location - Search weather by city name \u0026 state code",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-one-location---search-weather-by-city-name-\u0026-state-code;;4",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 333000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 388000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 138000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 296123000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User search weather by \"Thanh pho Ho Chi Minh\" and \"1566083\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thanh pho Ho Chi Minh\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"1566083\"",
+                  "offset": 51
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByCityNameAndStateCode(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4565000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User receive result by \"city name\" with \"200\" and \"Ho Chi Minh City\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"city name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Ho Chi Minh City\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:32.797Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1753000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1619000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 334000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Call weather data for one location - Search weather by city name \u0026 state code \u0026 country code",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-one-location---search-weather-by-city-name-\u0026-state-code-\u0026-country-code;;2",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 413000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 506000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 304000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 298211000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User search weather by \"West Orange\" and \"5106298\" and \"US\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"West Orange\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"5106298\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"US\"",
+                  "offset": 55
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByCityNameStateCodeCountryCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4770000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User receive result by \"city name\" with \"200\" and \"West Orange\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"city name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"West Orange\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:33.117Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1280000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 823000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 151000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Call weather data for one location - Search weather by city name \u0026 state code \u0026 country code",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-one-location---search-weather-by-city-name-\u0026-state-code-\u0026-country-code;;3",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 533000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 570000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 255000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1061029000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User search weather by \"Woodland Park\" and \"5106303\" and \"US\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Woodland Park\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"5106303\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"US\"",
+                  "offset": 57
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByCityNameStateCodeCountryCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5809000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User receive result by \"city name\" with \"200\" and \"Woodland Park\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"city name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Woodland Park\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:34.204Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1737000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1565000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 563000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Call weather data for one location - Search weather by city name \u0026 state code \u0026 country code",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-one-location---search-weather-by-city-name-\u0026-state-code-\u0026-country-code;;4",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 1321000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 393000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 418000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 264471000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User search weather by \"Thanh pho Ho Chi Minh\" and \"1566083\" and \"VN\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thanh pho Ho Chi Minh\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"1566083\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"VN\"",
+                  "offset": 65
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByCityNameStateCodeCountryCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4833000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User receive result by \"city name\" with \"200\" and \"Ho Chi Minh City\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"city name\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Ho Chi Minh City\"",
+                  "offset": 50
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:34.494Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1077000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1199000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 236000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Call weather data for one location - Search weather by city ID",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-one-location---search-weather-by-city-id;;2",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 440000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 545000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 589000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 274570000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User search weather by city ID \"1566053\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1566053\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByCityCode(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9414000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User receive result by \"city id\" with \"200\" and \"Thanh Son\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"city id\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Thanh Son\"",
+                  "offset": 48
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:34.796Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2630000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1033000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 387000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Call weather data for one location - Search weather by city ID",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-one-location---search-weather-by-city-id;;3",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 416000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 661000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 286000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 238999000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User search weather by city ID \"1565022\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1565022\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByCityCode(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3939000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User receive result by \"city id\" with \"200\" and \"Thu Dau Mot\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"city id\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"Thu Dau Mot\"",
+                  "offset": 48
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:35.059Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1629000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 864000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 231000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Call weather data for one location - Search weather by geographic coordinates",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-one-location---search-weather-by-geographic-coordinates;;2",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 423000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 435000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 196000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 250247000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User search weather by geographic coordinates \"35\" and \"139\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"35\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"139\"",
+                  "offset": 55
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByCityCode(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5033000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User receive result by \"geographic coordinates\" with \"200\" and \"Shuzenji\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"geographic coordinates\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"Shuzenji\"",
+                  "offset": 63
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:35.331Z",
+        "before": [
+          {
+            "result": {
+              "duration": 753000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1954000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 441000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Call weather data for one location - Search weather by geographic coordinates",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-one-location---search-weather-by-geographic-coordinates;;3",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 402000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 474000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 194000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 655282000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User search weather by geographic coordinates \"40.7143\" and \"-74.006\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"40.7143\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"-74.006\"",
+                  "offset": 60
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByCityCode(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4797000,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User receive result by \"geographic coordinates\" with \"200\" and \"New York\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"geographic coordinates\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 53
+                },
+                {
+                  "val": "\"New York\"",
+                  "offset": 63
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:36.006Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1143000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 718000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 313000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "Call weather data for one location - Search weather by Zip code",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-one-location---search-weather-by-zip-code;;2",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 395000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 395000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 183000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1049435000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User search weather by zip code \"94040\" and \"us\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"94040\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"us\"",
+                  "offset": 44
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByZipCodeCountryCode(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4815000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User receive result by \"zip code\" with \"200\" and \"Mountain View\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"zip code\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Mountain View\"",
+                  "offset": 49
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:37.074Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1100000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 894000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 258000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 73,
+        "name": "Call weather data for several cities - Search weather within a rectangle zone",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-several-cities---search-weather-within-a-rectangle-zone;;2",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 485000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1833000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 262000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 278228000,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "User search weather by rectangle zone \"12,32,15,37,10\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12,32,15,37,10\"",
+                  "offset": 38
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByRectangleZone(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11298000,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "User receive result by \"rectangle zone\" for several cities with \"200\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"rectangle zone\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 64
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveResultForSeveralCitiesInCircleWithStatusCode(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-03T09:09:37.381Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1245000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.startTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3871000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.initDrivers(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 357000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "Call weather data for several cities - Search weather within Cities in circle",
+        "description": "",
+        "id": "search-weather-function;call-weather-data-for-several-cities---search-weather-within-cities-in-circle;;2",
+        "after": [
+          {
+            "output": [
+              "Scenario Passed"
+            ],
+            "result": {
+              "duration": 674000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 434000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.terminateDrivers()"
+            }
+          },
+          {
+            "result": {
+              "duration": 198000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "core.controller.TestController.cleanClipboard()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 277749000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "User search weather by circle with  \"55.5\" and \"37.5\" and \"10\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"55.5\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"37.5\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"10\"",
+                  "offset": 58
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userSearchWeatherByCityCircle(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5789000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "User receive result by \"circle\" for several cities with \"200\" with API",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"circle\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"200\"",
+                  "offset": 56
+                }
+              ],
+              "location": "steps.api.SearchWeatherSteps.userReceiveResultForSeveralCitiesInCircleWithStatusCode(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Api"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search Weather function",
+    "description": "  As a Customer I can search weather of a city",
+    "id": "search-weather-function",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/searchweather/TestWeather.feature",
+    "tags": []
+  }
+]

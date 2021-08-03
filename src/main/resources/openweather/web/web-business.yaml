@@ -1,0 +1,9 @@
+#====================================================================================================================#
+# This configs is only use for web business
+#====================================================================================================================#
+# Web settings
+longTimeout: "60"
+shortTimeout: "3"
+
+# Mock file path
+webMockFilePath: "src/main/resources/tymebank/web/mock/wo-mock-add-on.crx"

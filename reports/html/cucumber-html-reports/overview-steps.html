@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>NAB Automation Testing</td>
+              <td>1</td>
+            <td>03 thg 8 2021, 16:09</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Duration</th>
+            <th>Average</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">core.controller.TestController.cleanClipboard()</td>
+              <td>30</td>
+              <td class="duration" data-value="13952000">013ms</td>
+              <td class="duration" data-value="465066">000ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">core.controller.TestController.initDrivers(io.cucumber.java.Scenario)</td>
+              <td>15</td>
+              <td class="duration" data-value="23524000">023ms</td>
+              <td class="duration" data-value="1568266">001ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">core.controller.TestController.snapshotAtTheEnd(io.cucumber.java.Scenario)</td>
+              <td>15</td>
+              <td class="duration" data-value="14531000">014ms</td>
+              <td class="duration" data-value="968733">000ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">core.controller.TestController.startTest()</td>
+              <td>15</td>
+              <td class="duration" data-value="1876837000">1s 876ms</td>
+              <td class="duration" data-value="125122466">125ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">core.controller.TestController.terminateDrivers()</td>
+              <td>15</td>
+              <td class="duration" data-value="12611000">012ms</td>
+              <td class="duration" data-value="840733">000ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">steps.api.SearchWeatherSteps.userReceiveResultForSeveralCitiesInCircleWithStatusCode(java.lang.String,java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="17087000">017ms</td>
+              <td class="duration" data-value="8543500">008ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">steps.api.SearchWeatherSteps.userReceiveStatusCode(java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>13</td>
+              <td class="duration" data-value="131937000">131ms</td>
+              <td class="duration" data-value="10149000">010ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">steps.api.SearchWeatherSteps.userSearchWeatherByCityCircle(java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="277749000">277ms</td>
+              <td class="duration" data-value="277749000">277ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">steps.api.SearchWeatherSteps.userSearchWeatherByCityCode(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="513569000">513ms</td>
+              <td class="duration" data-value="256784500">256ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">steps.api.SearchWeatherSteps.userSearchWeatherByCityCode(java.lang.String,java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="905529000">905ms</td>
+              <td class="duration" data-value="452764500">452ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">steps.api.SearchWeatherSteps.userSearchWeatherByCityName(java.lang.String)</td>
+              <td>2</td>
+              <td class="duration" data-value="1596545000">1s 596ms</td>
+              <td class="duration" data-value="798272500">798ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">steps.api.SearchWeatherSteps.userSearchWeatherByCityNameAndStateCode(java.lang.String,java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="2446061000">2s 446ms</td>
+              <td class="duration" data-value="815353666">815ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">steps.api.SearchWeatherSteps.userSearchWeatherByCityNameStateCodeCountryCode(java.lang.String,java.lang.String,java.lang.String)</td>
+              <td>3</td>
+              <td class="duration" data-value="1623711000">1s 623ms</td>
+              <td class="duration" data-value="541237000">541ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">steps.api.SearchWeatherSteps.userSearchWeatherByRectangleZone(java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="278228000">278ms</td>
+              <td class="duration" data-value="278228000">278ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">steps.api.SearchWeatherSteps.userSearchWeatherByZipCodeCountryCode(java.lang.String,java.lang.String)</td>
+              <td>1</td>
+              <td class="duration" data-value="1049435000">1s 049ms</td>
+              <td class="duration" data-value="1049435000">1s 049ms</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>15</td>
+            <td>120</td>
+            <td class="duration">10s 781ms</td>
+            <td class="duration">089ms</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "calctime": {
+      "type": "number"
+    },
+    "cnt": {
+      "type": "integer"
+    },
+    "cod": {
+      "type": "integer"
+    },
+    "list": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "dt": {
+              "type": "integer"
+            },
+            "rain": {
+              "type": "null"
+            },
+            "coord": {
+              "type": "object",
+              "properties": {
+                "Lon": {
+                  "type": "number"
+                },
+                "Lat": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "Lon",
+                "Lat"
+              ]
+            },
+            "visibility": {
+              "type": "integer"
+            },
+            "snow": {
+              "type": "null"
+            },
+            "name": {
+              "type": "string"
+            },
+            "weather": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "icon": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "main": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "icon",
+                    "description",
+                    "main",
+                    "id"
+                  ]
+                }
+              ]
+            },
+            "main": {
+              "type": "object",
+              "properties": {
+                "temp": {
+                  "type": "number"
+                },
+                "temp_min": {
+                  "type": "number"
+                },
+                "humidity": {
+                  "type": "integer"
+                },
+                "pressure": {
+                  "type": "integer"
+                },
+                "feels_like": {
+                  "type": "number"
+                },
+                "temp_max": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "temp",
+                "temp_min",
+                "humidity",
+                "pressure",
+                "feels_like",
+                "temp_max"
+              ]
+            },
+            "id": {
+              "type": "integer"
+            },
+            "clouds": {
+              "type": "object",
+              "properties": {
+                "today": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "today"
+              ]
+            },
+            "wind": {
+              "type": "object",
+              "properties": {
+                "deg": {
+                  "type": "integer"
+                },
+                "speed": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "deg",
+                "speed"
+              ]
+            }
+          },
+          "required": [
+            "dt",
+            "rain",
+            "coord",
+            "visibility",
+            "snow",
+            "name",
+            "weather",
+            "main",
+            "id",
+            "clouds",
+            "wind"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "calctime",
+    "cnt",
+    "cod",
+    "list"
+  ]
+}
